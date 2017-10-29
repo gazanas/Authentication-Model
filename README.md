@@ -1,7 +1,7 @@
 # Authentication-Model
 Easily create functional register, login and password update forms
 
-that allows you to set the safety parametres you need.
+that allows you to set the safety parameters you need.
 
 # Getting it to work
 This authentication model uses mysqli prepared statements to
