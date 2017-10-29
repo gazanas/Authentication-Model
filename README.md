@@ -66,5 +66,5 @@ $this->model = array(
             "tries to timeout" => 0, //After how many tries to login the account is locked. Default is 0 that means the user is allowed to try infinite times
             "time to unlock" => 0, //Minutes to unlock account after it's been locked out
             "hashing iterations" => 4 //Iterations of blowfish encryption algorithm. Least iterations allowed is 4
-        );
+);
 ```
