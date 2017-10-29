@@ -16,7 +16,9 @@ extension=php_mysqli.so for linux.
 
 After you should create the appropriate table for users by executing in mysql:
 
+```sql
 CREATE TABLE users(id INT PRIMARY KEY AUTO_INCREMENT, user_login VARCHAR(20) UNIQUE NOT NULL, email VARCHAR(100) UNIQUE NOT NULL, password VARCHAR(100) NOT NULL, last_update TIMESTAMP DEFAULT CURRENT_TIMESTAMP, failed_tries INT NOT NULL DEFAULT 0, locked_time TIMESTAMP DEFAULT 0);
+```
 
 The last step is to give MySQL server credentials for the php connection.
 
