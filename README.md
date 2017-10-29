@@ -52,6 +52,7 @@ In the file Storage_Model.php you can set the appriopriate safety values that yo
 
 Default:
 
+```php
 $this->model = array(
             "minimum length" => 0, //Minimum Length of password
             "numerics count" => 0, //Minimum number of numerics in a password
@@ -66,3 +67,4 @@ $this->model = array(
             "time to unlock" => 0, //Minutes to unlock account after it's been locked out
             "hashing iterations" => 4 //Iterations of blowfish encryption algorithm. Least iterations allowed is 4
         );
+```
