@@ -8,7 +8,7 @@ This authentication model uses mysqli prepared statements to
 
 avoid SQL injection attacks. 
 
-MySQLi is activated by uncommenting the line:
+MySQLi is activated by uncommenting in php.ini the line:
 
 extension=php_mysqli.dll; for windows or
 
